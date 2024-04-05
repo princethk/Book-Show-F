@@ -1,8 +1,14 @@
 # Book my show..
+Book My Show is a web application that allows users to book movie tickets. It provides a user-friendly interface for selecting movies, slots, and seat types, and facilitates the booking process with a simple and intuitive design.
 
-This is a demo of real bookmyshow, where the user can book a movie with specified seats at a specified slot and get a confirmation that, wheteher booking was sucessful or not.
-
-The movie booked by the user will be stored in database and is retrived and shown to the user.
+## Features
+Display a list of available movies, slots, and seat types.
+Select movies and slots by clicking on the respective div containing the data.
+Set the number of seats for each seat type by typing into the corresponding input field.
+Update the class names of the selected divs to indicate the selection.
+Make a booking with a single POST request upon clicking the submit button.
+Display last booking details, including the movie name, slot, and ticket types, in a separate section.
+Use localStorage to store temporary user selections to maintain state across reloads.
 
 ## Link to website -> [BookMyShow]()
 
@@ -16,8 +22,18 @@ The movie booked by the user will be stored in database and is retrived and show
 
 The documentation for the backend - [Documentation]()
 
+## Installation
+# To run the application locally, follow these steps:
+Clone this repository: git clone https://github.com/princethk/Book-Show-F.git
+Navigate to the project directory: cd Book-Show-F
+Install dependencies: npm install
+Start the development server: npm start
+The application will be running at http://localhost:3000.
+
 
 #### Contributions are always welcome!
+Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
+
 
 
 # Bookmyshow - Backend

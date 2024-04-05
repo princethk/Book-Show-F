@@ -20,19 +20,13 @@ Use localStorage to store temporary user selections to maintain state across rel
 - #### Axios / Fetch
     Used for making api calls.
 
-The documentation for the backend - [Documentation]()
-
 ## Installation
 # To run the application locally, follow these steps:
-Clone this repository: git clone https://github.com/princethk/Book-Show-F.git #
-Navigate to the project directory: cd Book-Show-F ##
-Install dependencies: npm install ##
-Start the development server: npm start ##
-The application will be running at http://localhost:3000. ##
-
-
-#### Contributions are always welcome!
-Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
+## Clone this repository: git clone https://github.com/princethk/Book-Show-F.git
+## Navigate to the project directory: cd Book-Show-F
+## Install dependencies: npm install 
+## Start the development server: npm start
+The application will be running at http://localhost:3000
 
 
 
@@ -40,11 +34,16 @@ Contributions are welcome! If you find any bugs or have suggestions for improvem
 
 This backend it built on top of Node.js where the user data is being stored and retrived flexibly from MongoDB and shown on the UI.
 
-## Link to website -> [BookMyShow]()
+## Link to website -> [BookMyShow](https://book-my-showf.netlify.app/)
 
+## Database Server
+## Connection
+To connect to the database server, use the provided connection.js file. This file contains the code to establish a connection with the localhost server.
 
+## Data Schema
+Store your data according to the schema provided in Schema.js. Ensure that your database follows this schema for consistent data storage.
 ## Technologies used
-- Express.
+- Express.- The backend server is built using Express and listens on port 8080.
    
   To Create Server.
 - MongoDB.
@@ -61,8 +60,9 @@ This backend it built on top of Node.js where the user data is being stored and 
 
    This is a get request endpoint which is used to get the last booking deatils of user.
 
-
 #### Contributions are always welcome!
+Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
+
 
 Thank You !
 

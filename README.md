@@ -24,11 +24,11 @@ The documentation for the backend - [Documentation]()
 
 ## Installation
 # To run the application locally, follow these steps:
-Clone this repository: git clone https://github.com/princethk/Book-Show-F.git
-Navigate to the project directory: cd Book-Show-F
-Install dependencies: npm install
-Start the development server: npm start
-The application will be running at http://localhost:3000.
+Clone this repository: git clone https://github.com/princethk/Book-Show-F.git #
+Navigate to the project directory: cd Book-Show-F ##
+Install dependencies: npm install ##
+Start the development server: npm start ##
+The application will be running at http://localhost:3000. ##
 
 
 #### Contributions are always welcome!
